@@ -1,0 +1,10 @@
+name: template_both
+description: Template created by script. Env and App
+types:
+  - app-template
+  - env-template
+inputs:
+  - label: Project name
+    type: text
+    name: project_name
+    default: project-name
